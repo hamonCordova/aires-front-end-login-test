@@ -1,0 +1,41 @@
+input {
+  border: none;
+  padding: 16px 10px;
+  margin: 0;
+  box-shadow: 0px 0px 12px $color-11;
+  border-radius: 5px;
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  background-color: $color-8;
+  color: $color-9;
+  font-size: 14px;
+  transition: background-color .2s;
+
+  &:hover {
+    background-color: darken($color-8, 4%);
+  }
+
+  &:active {
+    background-color: darken($color-8, 8%);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: $color-11;
+  }
+}
+
+input[type='checkbox'] {
+  height: 20px;
+  width: 20px;
+}
