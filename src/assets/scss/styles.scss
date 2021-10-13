@@ -1,0 +1,18 @@
+@import 'colors';
+@import 'flex';
+@import 'form';
+@import 'reset';
+@import 'size';
+@import 'spacing';
+@import 'text';
+
+// Default styles
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  font-family: Usual;
+}
